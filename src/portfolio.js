@@ -198,7 +198,7 @@ const bigProjects = {
   projects: [
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Rumour detection onSocial Media using Bi-directional Graph Convolutional Networks.",
+      projectName: "Rumour detection onSocial Media using Bi-directional Graph Convolutional Networks",
       projectDesc: "Utilized Bi - GCN to effectively capture complex relationships and dependencies, enhancing the accuracy of rumour detection.",
       footerLink: [
         {
