@@ -49,22 +49,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I'm a recent graduate encompassing C, C++, and Java. Equipped with 6+ months of hands-on experience.",
+  subTitle:
+    "I'm a recent graduate encompassing C, C++, and Java. Equipped with 6+ months of hands-on experience.",
   skills: [
     emoji(
       "⚡ Develop highly interactive and responsive Front end / User Interfaces for web and mobile applications"
     ),
-    
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS "
-    )
+
+    emoji("⚡ Integration of third party services such as Firebase/ AWS ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
@@ -97,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -113,14 +111,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -158,7 +152,7 @@ const workExperiences = {
         "Achieved a 25% boost in project delivery efficiency by implementing Next.js, React.js, RESTful APIs, JavaScript, Tailwind CSS, SASS, and HTML/CSS technologies within an Agile framework.",
         " Spearheaded the development of dynamic and responsive websites, contributing to a 20% boost in user engagement metrics."
       ]
-    },
+    }
   ]
 };
 
@@ -171,14 +165,13 @@ const educationInfo = {
       schoolName: "Chaitanya Bharathi Institute of Technology",
       logo: require("./assets/images/cbitLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "October 2020 - May 2023",
+      duration: "October 2020 - May 2023"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
-    
+    }
   ]
 };
 
@@ -198,60 +191,64 @@ const bigProjects = {
   projects: [
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Rumour detection onSocial Media using Bi-directional Graph Convolutional Networks",
-      projectDesc: "Utilized Bi - GCN to effectively capture complex relationships and dependencies, enhancing the accuracy of rumour detection.",
+      projectName:
+        "Rumour detection onSocial Media using Bi-directional Graph Convolutional Networks",
+      projectDesc:
+        "Utilized Bi - GCN to effectively capture complex relationships and dependencies, enhancing the accuracy of rumour detection.",
       footerLink: [
         {
-          name: "Python",
+          name: "Python"
         },
         {
-          name: "Neural Networks",
+          name: "Neural Networks"
         },
         {
-          name: "Natural Language Processing",
+          name: "Natural Language Processing"
         },
         {
-          name: "Pytorch",
-        },
+          name: "Pytorch"
+        }
         //  you can add extra buttons here.
       ]
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
       projectName: "Expen-sense",
-      projectDesc: "An Android Application to give you a sense of your expenses and help you manage them effectively.",
+      projectDesc:
+        "An Android Application to give you a sense of your expenses and help you manage them effectively.",
       footerLink: [
         {
-          name: "Android Studio",
+          name: "Android Studio"
         },
         {
-          name: "Java",
+          name: "Java"
         },
         {
-          name: "Firebase",
+          name: "Firebase"
         },
         {
-          name: "XML",
-        },
+          name: "XML"
+        }
       ]
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
       projectName: "Location Alarm App ",
-      projectDesc: "A Location Alarm app enabling users to set precise latitude and longitude coordinates",
+      projectDesc:
+        "A Location Alarm app enabling users to set precise latitude and longitude coordinates",
       footerLink: [
         {
-          name: "Java",
+          name: "Java"
         },
         {
-          name: "Android Studio",
+          name: "Android Studio"
         },
         {
-          name: "Firebase",
+          name: "Firebase"
         },
         {
-          name: " API (Google Maps)",
-        },
+          name: " API (Google Maps)"
+        }
       ]
     }
   ],
@@ -263,58 +260,57 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications🏆 "),
-  subtitle:
-    "",
+  subtitle: "",
 
   achievementsCards: [
     {
-      title: "CS50 Web development using Python and JavaScript by Harvard University.",
+      title:
+        "CS50 Web development using Python and JavaScript by Harvard University.",
       // subtitle:
       //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/harvardLogo.png"),
       imageAlt: "Harvard logo",
       footerLink: [
         {
-          name: "JavaScript",
+          name: "JavaScript"
           // url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "HTML and CSS",
+          name: "HTML and CSS"
           // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
-          name: "Web development",
+          name: "Web development"
           // url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Goldman Sachs Software Engineering Virtual Experience Program on Forage",
+      title:
+        "Goldman Sachs Software Engineering Virtual Experience Program on Forage",
       // subtitle:
       //   "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/goldmanSachs.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "Credential ID: NxsMM7r2fkSGE3cRM",
+          name: "Credential ID: NxsMM7r2fkSGE3cRM"
           // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 const positionSection = {
   title: emoji("Positions of Responsibility 🚀 "),
-  subtitle:
-    "",
+  subtitle: "",
 
   achievementsCards: [
     {
       title: "Senior Coordinator at CBIT Open Source Community",
-       subtitle:
-         "2020 - 2022",
+      subtitle: "2020 - 2022",
       image: require("./assets/images/coscLogo.jpg"),
       imageAlt: "cosc logo",
       footerLink: [
@@ -334,7 +330,7 @@ const positionSection = {
     },
     {
       title: "Chaitanya Svaasthya | Joint Secretary",
-       subtitle:"2021 - 2022",
+      subtitle: "2021 - 2022",
       //   "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/csLogo.jpg"),
       imageAlt: "svasthya Logo",
