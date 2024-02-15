@@ -56,7 +56,7 @@ const skillsSection = {
     ),
     
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS "
     )
   ],
 
